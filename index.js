@@ -102,6 +102,7 @@ window.onload = function() {
   var customOptions = options.customOptions
   var spec1 = options.swaggerDoc
   var swaggerOptions = {
+    withCredentials: true,
     spec: spec1,
     url: url,
     urls: urls,
